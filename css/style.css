@@ -10,7 +10,7 @@
   /* 这里改变跟随的底色 */
   background: var(0,0,0);
   border-radius: 8px;
-  opacity: 0.25;
+  opacity: 1;
   z-index: 10086;
   pointer-events: none;
   transition: 0.2s ease-in-out;
@@ -22,7 +22,7 @@
 }
 
 #cursor.hover {
-  opacity: 0.1;
+  opacity: 0.5;
   transform: scale(2.5);
   -webkit-transform: scale(2.5);
   -moz-transform: scale(2.5);
@@ -31,7 +31,7 @@
 }
 
 #cursor.active {
-  opacity: 0.5;
+  opacity: 0.8;
   transform: scale(0.5);
   -webkit-transform: scale(0.5);
   -moz-transform: scale(0.5);
